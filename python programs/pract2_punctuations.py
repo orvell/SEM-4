@@ -1,4 +1,3 @@
-
 string1 = input("Enter string to remove punctuations")
 
 import string
