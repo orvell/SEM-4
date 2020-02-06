@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Feb  6 21:46:14 2020
+
+@author: DRUELL
+"""
+
+def perfect_square(val):
+    return int(val**(1/2) + 0.5) ** 2 == val
+    
+def sum_lessthan_10(val):
+    sum = 0
+    while(val > 0):
+        i = val % 10
+        sum = sum + i
+        val = int(val / 10)
+    return sum<10
+
+upper = int(input("Enter upper range :"))
+lower = int(input("Enter lower range :"))
+
+list_req = []
+
+for i in range(lower, upper):
+    if(perfect_square(i) and sum_lessthan_10(i)):
+        list_req.append(i)
+
+print(list_req)
