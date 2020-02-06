@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Feb  6 21:46:14 2020
-
-@author: DRUELL
-"""
-
 def perfect_square(val):
     return int(val**(1/2) + 0.5) ** 2 == val
     
