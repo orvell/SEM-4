@@ -1,7 +1,11 @@
-string1 = input("Enter string to remove puncs")
+string = input(" Enter the string ")
+word = input(" Enter word to find its occurence ")
+count = 0
 
-import string
-for c in string.punctuation:
-    string1 = string1.replace(c,"")
+a = string.split(' ')
 
-print(string1)
+for i in a:
+    if i== word:
+       count = count+1
+
+print("Occurence is :",count)
