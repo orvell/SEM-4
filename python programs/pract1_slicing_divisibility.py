@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Feb  6 20:57:09 2020
-
-@author: DRUELL
-"""
 
 list1 = list(range(1, 50))
 
