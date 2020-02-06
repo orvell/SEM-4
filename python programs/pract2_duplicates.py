@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Feb  6 23:04:26 2020
-
-@author: DRUELL
-"""
 
 string = input("Enter a string")
 
